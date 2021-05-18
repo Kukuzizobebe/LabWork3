@@ -1,0 +1,64 @@
+.Borders{
+	width: 825px;
+	height: 825px;
+	border:10px solid #2C110A;
+	border-radius: 15px;
+	padding: 10px;
+	background: #BDBDBD;
+}
+.chess {
+	display: table;
+     width: 825px;
+	align-items: center;
+	margin: 0px;
+}
+body{
+	font-size: 18px;
+}
+img{
+	width:99px;
+	height:99px;
+	display: block;
+	position: absolute;
+}
+.Letters {
+display: table-row;
+height: 0px;
+text-align: center;
+}
+.Letters div{
+	display: table-cell;
+}
+.Letters1 {
+transform: rotate(180deg);
+display: table-row;
+height: 10px;
+text-align: center;
+}
+.Letters1 div{
+display: table-cell;
+}
+.Numbers{
+width: 10px;
+padding-right: 10px;
+vertical-align: middle;
+}
+.Numbers1{
+width: 10px;
+padding-right: 10px;
+transform: rotate(180deg);
+vertical-align: middle;
+}
+.chess-tr {
+display: table-row;
+height:98px;
+}
+.chess-tr div{
+	display: table-cell;
+}
+.black{
+	background: #2C110A;
+}
+.white{
+	background:#FFFFFF;
+}
